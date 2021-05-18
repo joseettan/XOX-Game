@@ -20,6 +20,10 @@
         "babel-preset-nano-react-app": "^0.1.0",
         "parcel": "^2.0.0-alpha.3.2"
     },
+    "babelrc": {
+        "presets": ["@parcel/babel-preset-env"],
+        "plugins": ["@parcel/babel-plugin-transform-runtime"]
+    },
     "babel": {
         "presets": [
             "nano-react-app"
